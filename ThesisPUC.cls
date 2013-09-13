@@ -1143,7 +1143,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \AtBeginDocument{%
-  \renewcommand{\bibname}{Refer\^{e}ncias Bibliogr\'{a}ficas}%
+  \renewcommand{\bibname}{Refer\^{e}ncias}%
   \bibliographystyle{ThesisPUC}%
   \renewcommand{\key}[1]{#1. }
   \special{ pdf: docinfo << /Author (\puc@author) /Title (\puc@title) /Keywords (\puc@keywords) >> }%
